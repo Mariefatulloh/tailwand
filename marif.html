@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Pembelajaran Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto flex justify-between items-center p-5">
+            <div class="text-lg font-bold">EduLearn</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-700 hover:text-blue-500">Home</a></li>
+                    <li><a href="#courses" class="text-gray-700 hover:text-blue-500">Kursus</a></li>
+                    <li><a href="#testimonials" class="text-gray-700 hover:text-blue-500">Testimoni</a></li>
+                    <li><a href="#contact" class="text-gray-700 hover:text-blue-500">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex flex-col-reverse lg:flex-row items-center justify-between container mx-auto p-10">
+        <div class="lg:w-1/2">
+            <h1 class="text-4xl font-bold mb-4">Belajar dengan Fleksibel di Mana Saja</h1>
+            <p class="text-gray-700 mb-6">Kami menyediakan berbagai kursus berkualitas untuk membantu Anda meningkatkan keterampilan Anda kapan saja, di mana saja.</p>
+            <a href="#courses" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Jelajahi Kursus</a>
+        </div>
+        <div class="lg:w-1/2 mb-6 lg:mb-0">
+            <img src="https://img.freepik.com/free-vector/online-tutorials-concept_23-2148682290.jpg" alt="Gambar Hero" class="w-full rounded-lg shadow-lg">
+        </div>
+    </section>
+
+    <!-- Section Kursus -->
+    <section id="courses" class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-8">Kursus Unggulan Kami</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold mb-2">Kursus Pemrograman</h3>
+                <p class="text-gray-700">Pelajari bahasa pemrograman terkini dengan mentor ahli dan kurikulum yang komprehensif.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold mb-2">Kursus Desain UI/UX</h3>
+                <p class="text-gray-700">Tingkatkan keterampilan desain Anda dengan panduan praktis dan latihan langsung.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold mb-2">Kursus Manajemen Proyek</h3>
+                <p class="text-gray-700">Belajar mengelola proyek secara efektif dengan metode agile dan teknik manajemen terbaik.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimonials" class="bg-gray-200 py-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Apa Kata Siswa Kami</h2>
+            <div class="flex flex-col space-y-4">
+                <blockquote class="bg-white p-6 rounded-lg shadow-lg">
+                    <p class="text-gray-700 italic">“Kursus ini sangat membantu saya dalam memahami pemrograman.”</p>
+                    <footer class="mt-2 text-right">- Siswa A</footer>
+                </blockquote>
+                <blockquote class="bg-white p-6 rounded-lg shadow-lg">
+                    <p class="text-gray-700 italic">“Pembelajarannya fleksibel dan materi mudah dipahami.”</p>
+                    <footer class="mt-2 text-right">- Siswa B</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-700 mb-4">Ikuti kami di media sosial:</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-blue-500 hover:text-blue-600">Facebook</a>
+                <a href="#" class="text-blue-500 hover:text-blue-600">Twitter</a>
+                <a href="#" class="text-blue-500 hover:text-blue-600">Instagram</a>
+            </div>
+            <p class="text-gray-500 mt-4">© 2024 EduLearn. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
